@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.fade-in-up { 
+  animation: fadeInUp 0.8s ease-out forwards; 
+  opacity: 0; 
+  transform: translateY(20px); 
+}
+
+@keyframes fadeInUp { 
+  to { opacity: 1; transform: translateY(0); } 
+}
+
+/* Reset basic anchor styles for router links to behave like regular text where needed */
+a { text-decoration: none; color: inherit; }
