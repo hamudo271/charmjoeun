@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hamudo271.github.io/charmjoeun-dental",
+  "homepage": "https://hamudo271.github.io/charmjoeun/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

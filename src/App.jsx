@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -12,7 +12,7 @@ import IntroPage from './pages/IntroPage';
 
 const App = () => {
     return (
-        <HashRouter>
+        <BrowserRouter>
             <div className="min-h-screen flex flex-col">
                 <Navigation />
                 <main className="flex-grow">
@@ -29,7 +29,7 @@ const App = () => {
                 </main>
                 <Footer />
             </div>
-        </HashRouter>
+        </BrowserRouter>
     );
 };
 
